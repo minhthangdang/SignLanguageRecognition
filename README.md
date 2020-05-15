@@ -52,10 +52,15 @@ This is the result:
 
 <img src="https://github.com/minhthangdang/minhthangdang.github.io/blob/master/cost-function.JPG?raw=true" alt="Sign Language" width="400"/><br>
 
+```
+Train Accuracy: 1.0
+Test Accuracy: 0.61503065
+```
+
 So you can see that the model is clearly overfitting. Adding regularization methods such as
 L2 regularization or dropout can help reduce overfitting, but that's out of the scope
 of this exercise. However please stay tuned as more to come.
 
-This is obviously a simple neural network, but it's a great introduction to Tensorflow. I've also learned a lot from the Coursera course, thanks to the brilliant teaching of Professor Andrew Ng.
+This is obviously a simple neural network, but it's a great introduction to Tensorflow. I've also learned many other things from the Coursera course, thanks to the brilliant teaching of Professor Andrew Ng.
 
 Should you have any questions, please contact me via Linkedin: https://www.linkedin.com/in/minh-thang-dang/
