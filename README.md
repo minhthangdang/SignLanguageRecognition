@@ -3,7 +3,7 @@ Deep learning for sign language recognition using MNIST image dataset
 
 ## Problem Statement
 
-This is my own exercise of Coursera's Improving Deep Neural
+This is my own exercise resulted from Coursera's Improving Deep Neural
 Networks: Hyperparameter tuning, Regularization and Optimization which I have
 passed (https://www.coursera.org/account/accomplishments/records/KDWADX7V43SS).
 
@@ -55,5 +55,7 @@ This is the result:
 So you can see that the model is clearly overfitting. Adding regularization methods such as
 L2 regularization or dropout can help reduce overfitting, but that's out of the scope
 of this exercise. However please stay tuned as more to come.
+
+This is obviously a simple neural network, but it's a great introduction to Tensorflow. I've also learned a lot from the Coursera course, thanks to the brilliant teaching of Professor Andrew Ng.
 
 Should you have any questions, please contact me via Linkedin: https://www.linkedin.com/in/minh-thang-dang/
