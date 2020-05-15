@@ -9,7 +9,7 @@ passed (https://www.coursera.org/account/accomplishments/records/KDWADX7V43SS).
 
 <img src="https://github.com/minhthangdang/minhthangdang.github.io/blob/master/KDWADX7V43SS.jpg?raw=true" alt="Sign Language" width="400"/><br>
 
-I strongly believe the best way to learn something is to put it in practice, hence
+I strongly believe the best way to learn something is to put it into practice, hence
 I did this exercise to solidify my knowledge.
 
 In the course, the programming assignment was to implement a deep neural network
