@@ -1,8 +1,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import LabelBinarizer
-from utils import load_dataset
+from utils import load_dataset, predict
 from model import model
+import scipy
+from PIL import Image
+from scipy import ndimage
 
 X_train_orig, Y_train_orig, X_test_orig, Y_test_orig, classes = load_dataset()
 
@@ -33,3 +36,12 @@ print ("Y_test shape: " + str(Y_test.shape))
 
 # train the neural network
 parameters = model(X_train, Y_train, X_test, Y_test)
+
+fname = "testimage.png"
+image = np.array(ndimage.imread(fname, flatten=False, mode='L'))
+image = image/255.
+my_image = scipy.misc.imresize(image, size=(28, 28)).reshape((1, 28*28)).T
+my_image_prediction = predict(my_image, parameters)
+
+plt.imshow(image)
+print("Predict: y = " + str(np.squeeze(my_image_prediction)))
